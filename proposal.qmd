@@ -29,7 +29,7 @@ From Growing Pains to Open Gains: A Multi-Institutional Example for Introduction
 
 **Brief Abstract (129/150 words)**:
 
-Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. Along with an overview of the curriculum, we will also share examples from our new open-access IDS textbook, *Hello Data Science*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. IDS is taught from many different valuable perspectives, and we want to share ours which emphasizes responsible science including accessibility, reproducibility, and ethical considerations.
+Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. We have been there!!! In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. We approach teaching IDS as doing science responsibly including accessibility, reproducibility, and ethical considerations. Along with an overview of the curriculum, we will demonstrate a classroom activity. We will also share examples from our new open-access IDS textbook, *Hello Data Science*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. 
 
 **Connection to Theme**: 
 
@@ -42,9 +42,9 @@ Instead of breakout rooms we will utilize polling software to have participants 
 
 - 2 minutes intro (explicitly mention our institution types). “What type of institution do you work at”, “How much previous experience do you have teaching IDS?”
 - 5 minutes overview & motivation 
-- 5 minutes about our classes/curriculum (order we cover topics in)
-- 10 minutes about open-access teaching resources: mainly the book and datasets
-- 8 minutes ??
+- 5 minutes about our classes/curriculum (order in which we cover the topics and why)
+- 10 minutes - demonstration of a classroom-ready activity
+- 8 minutes additional teaching resources: mainly the book and datasets
 
 **Goal**: 
 
