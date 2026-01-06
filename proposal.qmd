@@ -23,6 +23,8 @@ How about???
 
 Teaching Introductory Data Science: Trial, Error, and Triumph for All
 
+From Growing Pains to Open Gains: A Multi-Institutional Example for Introduction to Data Science
+
 **Proposal Type**: 30 minute
 
 **Brief Abstract (129/150 words)**:
