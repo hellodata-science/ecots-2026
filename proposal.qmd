@@ -21,25 +21,27 @@ Submission instructions: <https://www.causeweb.org/cause/ecots/ecots26/proposals
 
 **Proposal Type**: 30 minute
 
-**Brief Abstract (no more than 150 words)**:
+**Brief Abstract (129/150 words)**:
 
-Introduction to Data Science(IDS) instructors have several questions to answer: what to teach, how to teach, when to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. Overview of the curriculum, dataset examples, 
-We will share examples from our new open-access IDS textbook and the accompanying R package.
+Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. Along with an overview of the curriculum, we will also share examples from our new open-access IDS textbook, *Hello Data*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. IDS is taught from many different valuable perspectives, and we want to share ours which emphasizes responsible science including accessibility, reproducibility, and ethical considerations.
 
 **Connection to Theme**: 
 
+We think any instructor who has or might teach introductory data science can benefit from the resources we will share during the session and from connecting with each other.
+
 
 **Engagement**:  
+
+Instead of breakout sessions we will utilize polling software to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of their textbook and R package. The remainder of the session will involve a Q \& A. 
 
 - 2 minutes intro (explicitly mention our institution types). “What type of institution do you work at”, “How much previous experience do you have teaching IDS?”
 - 5 minutes overview & motivation 
 - 5 minutes about our classes/curriculum (order we cover topics in)
 - 10 minutes about our book and datasets
+- 8 minutes
 
-**Goal**: We want to provide an adaptable framework for educators that have not taught an introductory data science course before, and provide more resources to those that have.
+**Goal**: 
 
-- We want people to have an overview of an IDS curriculum, based on our courses and book.
-- We want to share our hellodata package datasets
-- We want them to do an activity, hopeful to help them see a difference between ids and introductory stats
+We want to provide an adaptable framework for educators that have not taught an introductory data science course before, and provide more resources to those that have. We want people to have an overview of an IDS curriculum, based on our experience, courses, textbook, and dataset examples.
 
 
