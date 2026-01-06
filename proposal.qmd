@@ -17,13 +17,17 @@ Submission instructions: <https://www.causeweb.org/cause/ecots/ecots26/proposals
 
 **Co-Presenter's Email**: acastro@cypresscollege.edu and mdogucu@uci.edu
 
-**Session Title**: Teaching Introductory Data Science, learn from our growing pains!
+**Session Title**: Teaching Introductory Data Science: Learn from Our Growing Pains!
+
+How about???
+
+Teaching Introductory Data Science: Trial, Error, and Triumph for All
 
 **Proposal Type**: 30 minute
 
 **Brief Abstract (129/150 words)**:
 
-Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. Along with an overview of the curriculum, we will also share examples from our new open-access IDS textbook, *Hello Data*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. IDS is taught from many different valuable perspectives, and we want to share ours which emphasizes responsible science including accessibility, reproducibility, and ethical considerations.
+Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. Along with an overview of the curriculum, we will also share examples from our new open-access IDS textbook, *Hello Data Science*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. IDS is taught from many different valuable perspectives, and we want to share ours which emphasizes responsible science including accessibility, reproducibility, and ethical considerations.
 
 **Connection to Theme**: 
 
@@ -32,13 +36,13 @@ We think any instructor who has or might teach introductory data science can ben
 
 **Engagement**:  
 
-Instead of breakout sessions we will utilize polling software to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of their textbook and R package. The remainder of the session will involve a Q \& A. 
+Instead of breakout rooms we will utilize polling software to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of their textbook and R package. The remainder of the session will involve a Q \& A. 
 
 - 2 minutes intro (explicitly mention our institution types). “What type of institution do you work at”, “How much previous experience do you have teaching IDS?”
 - 5 minutes overview & motivation 
 - 5 minutes about our classes/curriculum (order we cover topics in)
-- 10 minutes about our book and datasets
-- 8 minutes
+- 10 minutes about open-access teaching resources: mainly the book and datasets
+- 8 minutes ??
 
 **Goal**: 
 
