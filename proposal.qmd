@@ -11,43 +11,33 @@ Submission instructions: <https://www.causeweb.org/cause/ecots/ecots26/proposals
 
 **Co-Presenters (Optional)**: Alma Castro and Mine Dogucu
 
-**Co-Presenters Institutions**: Cypress Community College and University of California, Irvine
+**Co-Presenters Institutions**: Cypress College and University of California, Irvine
 
 **Primary Presenter's Email**: catalina.medina@csuci.edu
 
 **Co-Presenter's Email**: acastro@cypresscollege.edu and mdogucu@uci.edu
 
-**Session Title**: Teaching Introductory Data Science: Learn from Our Growing Pains!
-
-How about???
-
-Teaching Introductory Data Science: Trial, Error, and Triumph for All
-
-From Growing Pains to Open Gains: A Multi-Institutional Example for Introduction to Data Science
+**Session Title**: Teaching Introductory Data Science: Trial, Error, and Triumph for All
 
 **Proposal Type**: 30 minute
 
 **Brief Abstract (129/150 words)**:
 
-Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. We have been there!!! In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. We approach teaching IDS as doing science responsibly including accessibility, reproducibility, and ethical considerations. Along with an overview of the curriculum, we will demonstrate a classroom activity. We will also share examples from our new open-access IDS textbook, *Hello Data Science*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. 
+Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. We have been there!!! In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. Our approach to teaching data science involves a balance of statistics, computing, and domain science. We hope to spark joy in our classes by considering impacts of data science on humans and the world around us through accessibility, reproducibility, and ethical considerations. Along with an overview of the curriculum, we will demonstrate a classroom activity. We will also share examples from our new open-access IDS textbook, *Hello Data Science*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. 
 
 **Connection to Theme**: 
 
+To balance the impact of AI and technology broadly we highlight nontechnical aspects of data science on humans and the world around us through accessibility, reproducibility, and ethical considerations.
 We think any instructor who has or might teach introductory data science can benefit from the resources we will share during the session and from connecting with each other.
 
 
 **Engagement**:  
 
-Instead of breakout rooms we will utilize polling software to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of their textbook and R package. The remainder of the session will involve a Q \& A. 
+Instead of breakout rooms we will utilize polling software to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of an example classroom activity, their textbook, R package, and lecture slides. The remainder of the session will be a Q \& A and discussion among participants. 
 
-- 2 minutes intro (explicitly mention our institution types). “What type of institution do you work at”, “How much previous experience do you have teaching IDS?”
-- 5 minutes overview & motivation 
-- 5 minutes about our classes/curriculum (order in which we cover the topics and why)
-- 10 minutes - demonstration of a classroom-ready activity
-- 8 minutes additional teaching resources: mainly the book and datasets
 
 **Goal**: 
 
-We want to provide an adaptable framework for educators that have not taught an introductory data science course before, and provide more resources to those that have. We want people to have an overview of an IDS curriculum, based on our experience, courses, textbook, and dataset examples.
+We want to provide an adaptable framework for educators that have not taught an introductory data science course before, and provide more resources to those that have.
 
 
