@@ -24,6 +24,8 @@ Submission instructions: <https://www.causeweb.org/cause/ecots/ecots26/proposals
 **Brief Abstract (150/150 words)**:
 
 Introduction to Data Science (IDS) instructors have to consider: what to teach, how to teach, what tools to use, and how to distinguish an IDS course from an introductory statistics course. This can especially be overwhelming for novice instructors of IDS. We have been there!!! In this breakout room, we will share our collective approach to teaching IDS at three different institutions: a research university, teaching university, and community college. Our approach to teaching data science involves a balance of statistics, computing, and domain science. We hope to spark joy in our classes by considering impacts of data science on humans and the world around us through accessibility, reproducibility, and ethical considerations. We will present an overview of the curriculum, demonstrate a classroom activity, and share examples from our new open-access IDS textbook, Hello Data Science, and its accompanying R package, hellodatascience, with real datasets from a variety of contexts.
+
+<https://hellodata.science/>
  
 
 **Connection to Theme**: 
