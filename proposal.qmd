@@ -21,9 +21,10 @@ Submission instructions: <https://www.causeweb.org/cause/ecots/ecots26/proposals
 
 **Proposal Type**: 30 minute
 
-**Brief Abstract (129/150 words)**:
+**Brief Abstract (150/150 words)**:
 
-Introduction to Data Science (IDS) instructors have several questions to answer: what to teach, how to teach, what tools to use while teaching, and how to distinguish an IDS course from an introductory statistics course. These questions can especially be overwhelming for novice instructors of IDS. We have been there!!! In this breakout room, we will share our collective approach to teaching IDS at three different institutions:  a research university, teaching university, and community college. Our approach to teaching data science involves a balance of statistics, computing, and domain science. We hope to spark joy in our classes by considering impacts of data science on humans and the world around us through accessibility, reproducibility, and ethical considerations. Along with an overview of the curriculum, we will demonstrate a classroom activity. We will also share examples from our new open-access IDS textbook, *Hello Data Science*, and its accompanying R package ,`hellodata`, with real datasets from a variety of contexts. 
+Introduction to Data Science (IDS) instructors have to consider: what to teach, how to teach, what tools to use, and how to distinguish an IDS course from an introductory statistics course. This can especially be overwhelming for novice instructors of IDS. We have been there!!! In this breakout room, we will share our collective approach to teaching IDS at three different institutions: a research university, teaching university, and community college. Our approach to teaching data science involves a balance of statistics, computing, and domain science. We hope to spark joy in our classes by considering impacts of data science on humans and the world around us through accessibility, reproducibility, and ethical considerations. We will present an overview of the curriculum, demonstrate a classroom activity, and share examples from our new open-access IDS textbook, Hello Data Science, and its accompanying R package, hellodatascience, with real datasets from a variety of contexts.
+ 
 
 **Connection to Theme**: 
 
@@ -33,7 +34,7 @@ We think any instructor who has or might teach introductory data science can ben
 
 **Engagement**:  
 
-Instead of breakout rooms we will utilize polling software to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of an example classroom activity, their textbook, R package, and lecture slides. The remainder of the session will be a Q \& A and discussion among participants. 
+Polling software will be used instead of breakout rooms to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of an example classroom activity, their textbook (Hello Data Science)[https://hellodata.science/], R package (hellodatascience)[https://github.com/hellodata-science/hellodatascience], and lecture slides. The remainder of the session will be a Q \& A and discussion among participants. 
 
 
 **Goal**: 
