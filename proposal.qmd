@@ -34,7 +34,7 @@ We think any instructor who has or might teach introductory data science can ben
 
 **Engagement**:  
 
-Polling software will be used instead of breakout rooms to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of an example classroom activity, their textbook (Hello Data Science)[https://hellodata.science/], R package (hellodatascience)[https://github.com/hellodata-science/hellodatascience], and lecture slides. The remainder of the session will be a Q \& A and discussion among participants. 
+Polling software will be used instead of breakout rooms to have participants contribute throughout the fast-paced session. The session will begin with an introduction from the speakers and attendees including institution type and past experience teaching IDS. The speakers will then briefly present their curriculum and resources they've developed including discussion of an example classroom activity, their textbook [Hello Data Science](https://hellodata.science/), R package [hellodatascience](https://github.com/hellodata-science/hellodatascience), and lecture slides. The remainder of the session will be a Q \& A and discussion among participants. 
 
 
 **Goal**: 
