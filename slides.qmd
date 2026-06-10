@@ -10,6 +10,11 @@ format:
     theme: [style/style.scss]
 ---
 
+<!-- - 6 minutes intro (explicitly mention our institution types). “What type of institution do you work at”, “How much previous experience do you have teaching IDS?” -->
+<!-- - 6 minutes about our classes/curriculum (order in which we cover the topics and why) -->
+<!-- - 6 minutes - demonstration of a classroom-ready activity -->
+<!-- - 12 minutes additional teaching resources: mainly the book and datasets -->
+
 ## Introductions (our team)
 
 ::: {.panel-tabset}
@@ -27,7 +32,7 @@ format:
 ::: {.column width="60%"}
 
 - University of California, Irvine
-- 5 years of experience teaching IDS
+- 5+ years of experience teaching IDS
 
 :::
 
@@ -47,7 +52,7 @@ format:
 ::: {.column width="60%"}
 
 - California State University Channel Islands
-- 1 year of experience teaching IDS
+- 1 year of experience teaching IDS, plus TA experience!
 - Maximum of 25 students in each IDS class
 - Most students take IDS for to satisfy GE, some are DS majors
 
@@ -68,7 +73,7 @@ format:
 
 ::: {.column width="60%"}
 
-- Cypress College
+- Cypress (Community) College 
 - 4 years of experience teaching IDS
 
 :::
@@ -81,8 +86,8 @@ format:
 
 Let's do a Zoom waterfall chat! Type in the chat:
 
-- Name
-- Institution
+- Name,
+- Institution type, and
 - IDS experience (anything you'd like to share)
 
 Don't hit send yet! We'll let everyone know when to send together.
@@ -114,13 +119,13 @@ All three of us teach IDS using
 - W3 & W4: Data wrangling & Good workflow practices
 - W5: Webscraping & Midterm
 
-### Modeling unit
+### Modeling and inference unit
 
 - W6: Into to statistical inference & Beta-Binomial model
 - W7: Bayesian inference
 - W8: Frequentist inference
 - W9: SLR
-- W10: Multiple LR and Logisitic Regression
+- W10: Multiple LR and Logistic Regression
 
 :::
 
@@ -195,7 +200,16 @@ All three of us teach IDS using
 
 - [](https://github.com/hellodata-science/sfemergency25) Additional large dataset not on CRAN
 
+*TBD* Keep in touch Google Form link
+
 ![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters without pattern."}
 
+## Hello Data Science released content
+
+- cultural data science (lubridate example)
+- example data science project (ch 9 & 10)
+- reproducible
+
+## Hello Data Science datasets
 
 
