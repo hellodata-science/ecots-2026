@@ -86,9 +86,8 @@ format:
 
 Let's do a Zoom waterfall chat! Type in the chat:
 
-- Name,
 - Institution type, and
-- IDS experience (anything you'd like to share)
+- years of experience teaching IDS
 
 Don't hit send yet! We'll let everyone know when to send together.
 
@@ -204,12 +203,36 @@ All three of us teach IDS using
 
 ![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters without pattern."}
 
-## Hello Data Science released content
+## Released chapters
 
+<!-- Add titles for 10 chapters -->
+
+. . .
+
+- Still to come: Modeling and inference
+
+
+## Highlights
+
+- Real data sets from variety of contexts
 - cultural data science (lubridate example)
-- example data science project (ch 9 & 10)
-- reproducible
+- accessibility considerations and improvements
+- example EDA project (ch 9 & 10)
+- reproducible practices with Quarto, GitHub, style guide, ...
+
+## Q:
+
+What is your least favorite part of teaching IDS?
+
+<!-- Add instructions for waterfall chat (2 minutes) -->
 
 ## Hello Data Science datasets
 
+<!-- List out names of datasets (and field) -->
+
+## 
+
+What is a goal of yours this summer in relation to IDS?
+
+<!-- Add instructions for waterfall chat (2 minutes) -->
 
