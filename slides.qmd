@@ -1,0 +1,201 @@
+---
+title: "Introductory Data Science"
+subtitle: "eCOTS 2026 Breakout Session"
+title-slide-attributes:
+  data-background-image: "img/logo.png"
+  data-background-size: "25%"
+  data-background-position: "5% 95%, center"
+format: 
+  revealjs:
+    theme: [style/style.scss]
+---
+
+## Introductions (our team)
+
+::: {.panel-tabset}
+
+### Mine Doğucu
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/Dogucu-headshot.jpg){fig-alt="Headshot of a smiling woman with short brown hair."}
+
+:::
+
+::: {.column width="60%"}
+
+- University of California, Irvine
+- 5 years of experience teaching IDS
+
+:::
+
+::::
+
+
+### Catalina Medina
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/Medina-headshot.jpg){fig-alt="Headshot of a smiling woman with long brown hair."}
+
+:::
+
+::: {.column width="60%"}
+
+- California State University Channel Islands
+- 1 year of experience teaching IDS
+- Maximum of 25 students in each IDS class
+- Most students take IDS for to satisfy GE, some are DS majors
+
+:::
+
+::::
+
+
+### Alma Castro
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/Castro-headshot.jpg){fig-alt="Headshot of a smiling woman with long brown hair."}
+
+:::
+
+::: {.column width="60%"}
+
+- Cypress College
+- 4 years of experience teaching IDS
+
+:::
+
+::::
+
+:::
+
+## Introductions (you!)
+
+Let's do a Zoom waterfall chat! Type in the chat:
+
+- Name
+- Institution
+- IDS experience (anything you'd like to share)
+
+Don't hit send yet! We'll let everyone know when to send together.
+
+
+## Purpose of Breakout Session
+
+We want to share our
+
+- experiences
+- curriculum
+- open access materials (including online textbook and real data sets!)
+
+# Curriculum
+
+All three of us teach IDS using
+
+- open access materials
+- R, especially tidyverse
+
+## Dogucu's topics
+
+::: {.panel-tabset}
+
+### Coding focused unit
+
+- W1: Intro to R, Quarto, and GitHub &Describing data with numbers
+- W2: Data visualization
+- W3 & W4: Data wrangling & Good workflow practices
+- W5: Webscraping & Midterm
+
+### Modeling unit
+
+- W6: Into to statistical inference & Beta-Binomial model
+- W7: Bayesian inference
+- W8: Frequentist inference
+- W9: SLR
+- W10: Multiple LR and Logisitic Regression
+
+:::
+
+## Medina's topics
+
+::: {.panel-tabset}
+
+### Coding focused unit
+
+- W1: Intro to R, Quarto, and GitHub
+- W2: Data frames, variables, and summary stats
+- W3: Data visualization
+- W4 & W5: Data wrangling
+- W6: EDA project 
+
+*Project provides a nice pause!*
+
+### Machine learning unit
+
+- W7: Intro machine learning with SLR for prediction
+- W8: Multiple LR and model selection
+- W9: Logistic regression
+- W10: Clustering
+
+*I've found this is the unit students do best in!*
+
+### Statistical inference unit
+
+- W11: Midterm & Into to statistical inference
+- W12: Sampling distribution
+- W13: Bootstrap confidence intervals
+- W14: *Work on final team project*
+- W15: Intro to probability distributions for modeling
+
+:::
+
+## Catros's topics
+
+::: {.panel-tabset}
+
+### Unit 1
+
+- W1: 
+- W2: 
+- W3: 
+- W4:
+- W5: 
+- W6: 
+- W7: 
+- W8: 
+- W9: 
+- W10: 
+- W11: 
+- W12: 
+- W13: 
+- W14: 
+- W15: 
+
+:::
+
+
+## TBD
+
+*10 minutes - demonstration of a classroom-ready activity*
+
+
+## Resources
+
+- [Hello Data Science Textbook](https://hellodata.science/)
+
+- [hellodatascience](https://hellodata-science.github.io/hellodatascience) R Package with datasets
+
+- [](https://github.com/hellodata-science/sfemergency25) Additional large dataset not on CRAN
+
+![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters without pattern."}
+
+
+

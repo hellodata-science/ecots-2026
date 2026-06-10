@@ -1,0 +1,95 @@
+/*diverging color palette https://www.vis4.net/palettes/#/9|d|00749b,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1*/
+/*sequential color paletter https://www.vis4.net/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1*/
+
+//Fonts
+
+/*-- scss:defaults --*/
+
+// Text elements
+$body-color: #36454F;
+$body-bg: #f5f5f5;
+$font-family-sans-serif: 'Atkinson Hyperlegible'; /*for all text*/
+
+// Links and actions
+
+$link-color: #56B4E9;
+$link-color-hover: lighten($link-color, 15%);
+$selection-bg:	lighten($link-color, 25%);
+
+// Code
+$code-block-bg: #eaeaea;
+
+// Bordered Text
+
+
+/*-- scss:rules --*/
+
+
+
+code, pre, kbd, samp {
+  font-family: var(--bs-font-monospace) !important;
+}
+
+
+// Increases the space inside the code block (between text and background edge)
+$code-block-bg-padding: 1.5em; 
+
+// Increases the space specifically on the left side (indents the text further)
+$code-block-padding-left: 2em; 
+
+// Adds a margin to the entire code block container to shift it right
+$code-block-margin-bottom: 1.5em;
+
+// Customized Callout Blocks
+//  https://astronautweb.co/snippet/font-awesome/
+
+.goals, {
+  border-top: 10px solid #009E73;
+  background: #f1faf8;
+}
+
+.goals:before {
+  content: 'Goals';
+}
+
+.quiz {
+  border-top: 10px solid #F0E442;
+  background: #fefef8;
+}
+
+.quiz:before {
+   content: 'Test Yourself!';
+}
+
+.takenote {
+  border-top: 10px solid #CC79A7;
+  background: #f7ebf2;
+}
+
+.takenote:before {
+   content: 'Take Note';
+}
+
+/* Import font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@0;1&display=swap');
+
+// figure specifications
+figure {
+   text-align: center;
+}
+
+
+
+/*logo*/
+
+.sidebar-search::before {
+  content: "";
+  display: block;                   /* creates a box */
+  width: 150px;                      /* adjust as needed */
+  height: 150px;
+  background: url("img/logo/logo.png") no-repeat center / contain;
+  margin: 0 auto;                   /* center horizontally */
+}
+
+/*end of logo*/
