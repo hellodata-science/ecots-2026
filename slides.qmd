@@ -19,26 +19,6 @@ format:
 
 ::: {.panel-tabset}
 
-### Mine Doğucu
-
-:::: {.columns}
-
-::: {.column width="40%"}
-
-![](img/Dogucu-headshot.jpg){fig-alt="Headshot of a smiling woman with short brown hair."}
-
-:::
-
-::: {.column width="60%"}
-
-- University of California, Irvine
-- 5+ years of experience teaching IDS
-
-:::
-
-::::
-
-
 ### Catalina Medina
 
 :::: {.columns}
@@ -75,6 +55,25 @@ format:
 
 - Cypress (Community) College 
 - 4 years of experience teaching IDS
+
+:::
+
+::::
+
+### Mine Doğucu
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/Dogucu-headshot.jpg){fig-alt="Headshot of a smiling woman with short brown hair."}
+
+:::
+
+::: {.column width="60%"}
+
+- University of California, Irvine
+- 5+ years of experience teaching IDS
 
 :::
 
@@ -217,6 +216,7 @@ All three of us teach IDS using
 - Real data sets from variety of contexts
 - cultural data science (lubridate example)
 - accessibility considerations and improvements
+- diagrams to explain ds concepts
 - example EDA project (ch 9 & 10)
 - reproducible practices with Quarto, GitHub, style guide, ...
 
