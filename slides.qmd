@@ -205,27 +205,43 @@ The three of us differ by topics, but all three of us teach IDS using
 
 ## Open access textbook for IDS
 
-- [Hello Data Science Textbook](https://hellodata.science/)
+![<https://hellodata.science/>](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
-![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters."}
+## Released chapters {background-image="img/logo.png" background-size="35px" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
-## Released chapters
+:::: {.columns}
 
-<!-- Add titles for 10 chapters -->
+::: {.column width="60%"}
 
-. . .
+1. hello woRLD
+2. Introduction to Data
+3. Data visualization
+4. Accessible Data Representations
+5. Dealing with Variables: Transformation & Aggregation
+6. Dealing with Specific Types of Variables: Strings, Dates, and Factors
 
-- Still to come: Modeling and inference
+:::
+
+::: {.column width="40%"}
+
+7. Dealing with Datasets: Joining, Pivoting, and Importing Datasets
+8. Tables, Functions, and Iterations
+9. Exploratory Data Analysis Project
+10. Reproducible Workflows for Data Science Projects
+
+:::
+
+::::
 
 
-## Highlights
+## Highlights {background-image="img/logo.png" background-size="35px" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
 - Real data sets from variety of contexts
 - cultural data science (lubridate example)
 - accessibility considerations and improvements
 - diagrams to explain ds concepts
 - example EDA project (ch 9 & 10)
-- reproducible practices with Quarto, GitHub, style guide, ...
+- reproducible practices with Quarto, GitHub, and style guide
 
 # Tools
 
