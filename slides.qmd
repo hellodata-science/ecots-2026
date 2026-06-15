@@ -168,23 +168,28 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 
 ::: {.panel-tabset}
 
-### Unit 1
+### Coding focused unit
 
-- W1: 
-- W2: 
-- W3: 
-- W4:
-- W5: 
-- W6: 
-- W7: 
-- W8: 
-- W9: 
-- W10: 
-- W11: 
-- W12: 
-- W13: 
-- W14: 
-- W15: 
+- W1: Intro to R, Quarto, R packages, Importing datasets
+- W2: Data frames, variables
+- W3: Sampling techniques, Study design and ethics
+- W4: Summarizing data numerically
+- W5 & W6: Data visualization
+- W7 & W8: Data wrangling 
+
+### Statistical inference unit
+
+- W9: Midterm & Sampling distribution
+- W10: Bootstrap confidence intervals and intro to hypothesis testing
+- W11: Inference for numerical data (t-test) and for categorical data (chi-square test)
+
+
+### Machine learning unit
+
+- W12: Simple linear regression
+- W13: Multiple LR and model evaluation
+- W14: Project
+- W15: Logistic regression
 
 :::
 
