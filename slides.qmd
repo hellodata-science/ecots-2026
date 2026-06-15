@@ -185,9 +185,243 @@ All three of us teach IDS using
 :::
 
 
-## TBD
+# Classroom Activity
 
-*10 minutes - demonstration of a classroom-ready activity*
+Inspired by USCOTS 2025 workshop by Anna Fergusson
+
+From sketchy intuitions to imperfect rules: Using digital image data from drawings to introduce informal classification models
+
+## Step 0: Get into teams of 4 - 5
+
+## Step 1: Familiarize yourself with your landscape drawing area, 16 squares by 9 squares
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| echo: false
+#| out-width: 60%
+#| fig-alt: "A blank rectangular grid with a blue border and a white background overlaid with a uniform light blue grid of evenly spaced rows and columns, containing no data, labels, or axes, suggesting an empty chart or graph template awaiting content."
+knitr::include_graphics("img/blank-grid.png")
+```
+
+:::
+
+## Step 2: Draw _______ within your drawing area in less than 15 seconds without showing it to your teammates.
+
+. . . 
+
+
+## Step 2: Draw a book within your drawing area in less than 15 seconds without showing it to your neighbors.
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 0, seconds = 15)
+```
+
+
+## Step 2.5: Now you can take a look at each others' drawings.
+
+. . .
+
+An example: 
+
+```{r}
+#| fig-align: center
+#| echo: false
+#| out-width: 60%
+#| fig-alt: "A hand-drawn pencil sketch on graph paper, enclosed in a rectangular border, showing a simple open book icon drawn in pencil — two symmetrical curved pages spread open at a central spine, with diagonal lines on each page representing text"
+knitr::include_graphics("img/initial-drawing.png")
+```
+
+
+
+## Step 3: Pixelate your drawing
+
+For any square that has a line, a dot or any pen/pencil mark, shade the whole square.
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| out-width: 60%
+#| echo: false
+#| fig-alt: A pixel art design drawn in pencil on a 16x9 graph paper grid. Columns and rows are not labeled but for the purposes of this alt text assume that the columns are labeled a-p, rows 1-9. The irregular shape consists of various shades of gray pencil markings, with some internal white (unshaded) cells. Shaded cells include f2, g2, k2, l2, f3, g3, h3, j3, l3, f4, g4, h4, i4, j4, k4, l4, f5, g5, h5, i5, j5, k5, l5, f6, g6, h6, i6, j6, l6, f7, g7, h7, i7, j7, k7, l7, g8, h8, j8, k8, l8, m8, h9, i9.
+knitr::include_graphics("img/initial-drawing-pixelated.png")
+```
+
+:::
+
+## Step 4: Write your algorithm
+
+Use your drawing as well as the drawings of your teammates (only your teammates) to come up with an algorithm (a set of rules) that can identify an open book. In other words, the algorithm should should identify whether the drawn book is open or closed.
+
+
+## MY CLASSIFICATION ALGORITHM  
+
+
+ 
+Algorithm Name: _______________________
+
+My Rule (write it step-by-step):  
+1. ____________________________________________________  
+2. ____________________________________________________  
+3. ____________________________________________________  
+4. Classification Decision:  
+   `if` _________________ `then` predict "open".  
+   `else` predict "closed". 
+
+
+
+## The Vertical Gap Scanner
+
+1. Go through the image one row at a time, from top to bottom.
+
+2. For each row, check if it qualifies as a "Gapped Row." A row is a "Gapped Row" if it meets both of these conditions:
+- It has at least one filled-in square.
+- It has 3 empty squares between its leftmost filled square and its rightmost filled square.
+
+
+## The Vertical Gap Scanner
+
+3. Count the number of gapped rows and save it as `gap_row_count`.
+
+4. Classification Decision:  
+  `if` `gap_row_count` >= 1 `then` predict "open".  
+   `else` predict "closed". 
+
+## Step 5: Test your model
+
+| image_id | actual_class | predicted_class |
+|----------|--------|-----------|
+| 1        |        |           |
+| 2        |        |           |
+| .        |        |           |
+| .        |        |           |
+| .        |        |           |
+| 9        |        |           |
+| 10       |        |           |
+
+## Image Example 1
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| out-width: 60%
+#| echo: false
+#| fig-alt: closed book image with only edges and spine drawn from the back cover view
+knitr::include_graphics("img/back-closed.png")
+```
+
+:::
+
+`actual_class` = closed
+
+
+## Image Example 1
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| out-width: 60%
+#| echo: false
+#| fig-alt: A pixel art design drawn in pencil on a 16x9 graph paper grid. Columns and rows are not labeled but for the purposes of this alt text assume that the columns are labeled a-p, rows 1-9. The irregular shape consists of various shades of gray pencil markings, with some internal white (unshaded) cells. Shaded cells include f2, g2, h2, i2, j2, k2, f3, k3, l3, f4, k4, l4, f5, k5, l5, f6, k6, l6, f7, k7, l7, f8, g8, h8, i8, j8, k8, l8
+knitr::include_graphics("img/back-closed-pixelated.png")
+```
+
+:::
+
+`predicted_class` = ?
+
+
+## Image Example 2
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| out-width: 60%
+#| fig-alt: an open book or journal viewed from a three-quarter perspective, tilted slightly to the right. The book is split by a central line for the spine, with both pages completely blank inside. Along the bottom edge of the spine, a small U-shaped loop curves downward.
+knitr::include_graphics("img/tilted-curved.png")
+```
+
+:::
+
+`actual_class` = open
+
+## Image Example 2
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| out-width: 60%
+#| fig-alt: A pixel art design drawn in pencil on a 16x9 graph paper grid. Columns and rows are not labeled but for the purposes of this alt text assume that the columns are labeled a-p, rows 1-9. The irregular shape consists of various shades of gray pencil markings, with some internal white (unshaded) cells. Shaded cells include f2, g2, h2, i2, j2, k2, l2, e3, f3, i3, l3, e4, h4, k4, l4, e5, h5, k5, e6, h6, k6, e7, f7, g7, i7, j7, k7, e8, f8, g8, h8, i8, j8, k8
+knitr::include_graphics("img/tilted-curved-pixelated.png")
+```
+
+:::
+
+`predicted_class` = ?
+
+## Image Example 3
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| out-width: 60%
+#| fig-alt: The drawing depicts a single closed book standing upright and viewed from a dynamic three-quarter side angle.
+knitr::include_graphics("img/side-closed.png")
+```
+
+:::
+
+`actual_class` = closed
+
+
+## Image Example 3
+
+::: {style="text-align: center;"}
+
+```{r}
+#| fig-align: center
+#| out-width: 60%
+#| fig-alt: A pixel art design drawn in pencil on a 16x9 graph paper grid. Columns and rows are not labeled but for the purposes of this alt text assume that the columns are labeled a-p, rows 1-9. The irregular shape consists of various shades of gray pencil markings, with some internal white (unshaded) cells. Shaded cells include i1, j1, k1, i2, j2, i3, j3, h4, i4, j4, h5, i5, j5, h5, i6, j6, h7, i7, j7, h8, i8, h9
+knitr::include_graphics("img/side-closed-pixelated.png")
+```
+
+:::
+
+`predicted_class` = ?
+
+
+
+
+## More Testing Data
+
+
+[Quick, Draw](https://quickdraw.withgoogle.com/data/book)
+
+
+## Model Evaluation
+
+|Criteria | **Predicted: OPEN** | **Predicted: CLOSED** |
+| :--- | :--- | :--- |
+| **Actual: OPEN** | <span style="color:green; font-weight:bold;">_________</span><br/>**(True Positive)** | <span style="color:orange; font-weight:bold;">________</span><br/>**(False Negative)** |
+| **Actual: CLOSED**| <span style="color:red; font-weight:bold;">_______</span><br/>**(False Positive)** | <span style="color:green; font-weight:bold;">________</span><br/>**(True Negative)** |
+
+## Definitions and Discussions
+
+- What is an algorithm? What is a model?
+
+- Are there perfect models? What happens if we have perfect models?
+
+- Training vs. testing
+
+
 
 
 ## Resources
