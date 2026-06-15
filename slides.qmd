@@ -10,11 +10,6 @@ format:
     theme: [style/style.scss]
 ---
 
-<!-- - 6 minutes intro (explicitly mention our institution types). “What type of institution do you work at”, “How much previous experience do you have teaching IDS?” -->
-<!-- - 6 minutes about our classes/curriculum (order in which we cover the topics and why) -->
-<!-- - 6 minutes - demonstration of a classroom-ready activity -->
-<!-- - 12 minutes additional teaching resources: mainly the book and datasets -->
-
 ## Introductions (our team)
 
 ::: {.panel-tabset}
@@ -86,25 +81,34 @@ format:
 Let's do a Zoom waterfall chat! Type in the chat:
 
 - Institution type, and
-- years of experience teaching IDS
+- years of experience teaching IDS (Introductory Data Science)
 
 Don't hit send yet! We'll let everyone know when to send together.
 
 
-## Purpose of Breakout Session
+## Breakout Session
 
-We want to share our
+The flow of this session will cover:
 
-- experiences
-- curriculum
-- open access materials (including online textbook and real data sets!)
+1. Content
+2. Tools
+3. Examples
 
-# Curriculum
+The **purpose** of this session is to share:
 
-All three of us teach IDS using
+- Curriculum
+- Open access materials (e.g., online textbook, real data sets, and teaching activity!)
+- Experiences
 
-- open access materials
-- R, especially tidyverse
+# Content
+
+## Curriculum
+
+We will start by sharing the topics we cover in our IDS, highlighting **similarities** and **differences**
+
+
+
+
 
 ## Dogucu's topics
 
@@ -148,7 +152,7 @@ All three of us teach IDS using
 - W9: Logistic regression
 - W10: Clustering
 
-*I've found this is the unit students do best in!*
+*I've found this to be the unit students do best in!*
 
 ### Statistical inference unit
 
@@ -184,6 +188,48 @@ All three of us teach IDS using
 
 :::
 
+## Summary
+
+Even if your course differs in topics or tools, you can still benefit from individual parts of this session!
+
+The three of us differ by topics, but all three of us teach IDS using
+
+- R, especially tidyverse
+- data-centered explorations
+- open access materials
+
+. . .
+
+**We are developing an open-access textbook for IDS!**
+
+
+## Open access textbook for IDS
+
+- [Hello Data Science Textbook](https://hellodata.science/)
+
+![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters."}
+
+## Released chapters
+
+<!-- Add titles for 10 chapters -->
+
+. . .
+
+- Still to come: Modeling and inference
+
+
+## Highlights
+
+- Real data sets from variety of contexts
+- cultural data science (lubridate example)
+- accessibility considerations and improvements
+- diagrams to explain ds concepts
+- example EDA project (ch 9 & 10)
+- reproducible practices with Quarto, GitHub, style guide, ...
+
+# Tools
+
+# Examples
 
 # Classroom Activity
 
@@ -424,7 +470,7 @@ knitr::include_graphics("img/side-closed-pixelated.png")
 
 
 
-## Resources
+# Questions?
 
 - [Hello Data Science Textbook](https://hellodata.science/)
 
@@ -432,41 +478,8 @@ knitr::include_graphics("img/side-closed-pixelated.png")
 
 - [](https://github.com/hellodata-science/sfemergency25) Additional large dataset not on CRAN
 
-*TBD* Keep in touch Google Form link
+Keep up to date via [Google Form link](https://forms.gle/HxaX3DQQKe3n2BLs8)
 
 ![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters without pattern."}
 
-## Released chapters
-
-<!-- Add titles for 10 chapters -->
-
-. . .
-
-- Still to come: Modeling and inference
-
-
-## Highlights
-
-- Real data sets from variety of contexts
-- cultural data science (lubridate example)
-- accessibility considerations and improvements
-- diagrams to explain ds concepts
-- example EDA project (ch 9 & 10)
-- reproducible practices with Quarto, GitHub, style guide, ...
-
-## Q:
-
-What is your least favorite part of teaching IDS?
-
-<!-- Add instructions for waterfall chat (2 minutes) -->
-
-## Hello Data Science datasets
-
-<!-- List out names of datasets (and field) -->
-
-## 
-
-What is a goal of yours this summer in relation to IDS?
-
-<!-- Add instructions for waterfall chat (2 minutes) -->
 
