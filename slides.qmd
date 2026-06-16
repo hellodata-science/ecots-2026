@@ -100,7 +100,7 @@ What do we mean by introductory data science?
 We will start by sharing the topics we cover in our IDS, highlighting **similarities** and **differences**
 
 
-## Dogucu's topics
+## Doğucu's topics
 
 ::: {.panel-tabset}
 
