@@ -1,6 +1,6 @@
 ---
-title: "Introductory Data Science"
-subtitle: "eCOTS 2026 Breakout Session"
+title: "Teaching Introductory Data Science: Trial, Error, and Triumph for All"
+subtitle: "eCOTS 2026 Breakout Session 5B"
 title-slide-attributes:
   data-background-image: "img/logo.png"
   data-background-size: "25%"
@@ -8,6 +8,7 @@ title-slide-attributes:
 format: 
   revealjs:
     theme: [style/style.scss]
+    slide-number: true
 ---
 
 ## Introductions (our team)
@@ -105,18 +106,18 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 
 ### Coding focused unit
 
-- W1: Intro to R, Quarto, and GitHub &Describing data with numbers
+- W1: Intro to R, Quarto, and GitHub & describing data with numbers
 - W2: Data visualization
-- W3 & W4: Data wrangling & Good workflow practices
-- W5: Webscraping & Midterm
+- W3 & W4: Data wrangling & good workflow practices
+- W5: Webscraping & midterm
 
 ### Modeling and inference unit
 
-- W6: Into to statistical inference & Beta-Binomial model
+- W6: Intro to statistical inference & Beta-Binomial model
 - W7: Bayesian inference
 - W8: Frequentist inference
-- W9: SLR
-- W10: Multiple LR and Logistic Regression
+- W9: Simple linear regression
+- W10: Multiple linear regression and logistic regression
 
 :::
 
@@ -130,14 +131,14 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 - W2: Data frames, variables, and summary stats
 - W3: Data visualization
 - W4 & W5: Data wrangling
-- W6: EDA project 
+- W6: Exploratory data analysis project 
 
 *Project provides a nice pause!*
 
 ### Machine learning unit
 
-- W7: Intro machine learning with SLR for prediction
-- W8: Multiple LR and model selection
+- W7: Simple linear regression for prediction
+- W8: Multiple linear regression and model selection
 - W9: Logistic regression
 - W10: Clustering
 
@@ -145,7 +146,7 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 
 ### Statistical inference unit
 
-- W11: Midterm & Into to statistical inference
+- W11: Midterm & into to statistical inference
 - W12: Sampling distribution
 - W13: Bootstrap confidence intervals
 - W14: *Work on final team project*
@@ -159,16 +160,16 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 
 ### Coding focused unit
 
-- W1: Intro to R, Quarto, R packages, Importing datasets
-- W2: Data frames, variables
-- W3: Sampling techniques, Study design and ethics
+- W1: Intro to R, Quarto, R packages, importing datasets
+- W2: Data frames & variables
+- W3: Sampling techniques, study design and ethics
 - W4: Summarizing data numerically
 - W5 & W6: Data visualization
 - W7 & W8: Data wrangling 
 
 ### Statistical inference unit
 
-- W9: Midterm & Sampling distribution
+- W9: Midterm & sampling distribution
 - W10: Bootstrap confidence intervals and intro to hypothesis testing
 - W11: Inference for numerical data (t-test) and for categorical data (chi-square test)
 
@@ -176,7 +177,7 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 ### Machine learning unit
 
 - W12: Simple linear regression
-- W13: Multiple LR and model evaluation
+- W13: Multiple linear regression and model evaluation
 - W14: Project
 - W15: Logistic regression
 
@@ -190,22 +191,25 @@ What is your favorite topic to teach in data science? (If not taught yet, what h
 
 # Tools
 
-Even if your course differs in topics or tools, you can still benefit from individual parts of this session!
-
-The three of us differ by topics, but all three of us teach IDS using
+All three of us teach IDS using
 
 - R with tidyverse
+- Quarto
 - data-centered explorations
 - open-access materials
+- reproducible science
 
 . . .
 
 **We are developing an open-access textbook for IDS!**
 
 
-## [Hello Data Science](https://hellodata.science/)  {style="text-align: center;"}
+## Hello Data Science: A Friendly Introduction With Applications
+
+<https://hellodata.science/>
 
 ![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters." fig-align="center"}
+
 
 ## Released chapters {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
@@ -234,20 +238,13 @@ The three of us differ by topics, but all three of us teach IDS using
 ::::
 
 
-## Highlights {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
-
-- Real data sets from a variety of contexts
-- Accessibility considerations and improvements
-- Culturally aware data science
-- Diagrams to explain DS concepts
-- Example EDA project
-- Reproducible practices with Quarto, GitHub, and style guide
+# Highlights {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
 ## Datasets {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
 [hellodatascience](https://hellodata-science.github.io/hellodatascience/) R package - CRAN hosted
 
-- American Time Use Survey for undergrad students
+- American Time Use Survey for college students
 - Economic measures for countries
 - Micro FIFA confederations and 2026 World Cup datasets
 - Planets
@@ -260,10 +257,19 @@ The three of us differ by topics, but all three of us teach IDS using
 
 Ch4: Accessible Data Representations
 
-- Color-blind friendly colors with Okabe-Ito palette and `viridis` R package
+- Color-blind friendly colors with Okabe-Ito palette and `viridis` (Ch 9) R package
 - Data verbalization
 - Data sonification
 - Data tactualization
+
+## Culturally aware data science {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+
+Example: when learning how to handle dates
+
+| Mathematical aspects | Cultural aspects |
+|:-------------|:-------------|
+| years, months, days | start of week |
+| time zones | beyond the Gregorian calendar (lunar-based calendars etc) |
 
 ## Diagrams {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
@@ -306,7 +312,7 @@ Ch 9 Exploratory Data Analysis Project
 Ch 10 Reproducible Workflows for Data Science Projects
 
 - Utilizes [CDC PLACES](https://www.cdc.gov/places/?gad_source=1&gad_campaignid=23661736520&gbraid=0AAAABDIh0qwGL1a5eTZWNwVV1wDw8NYqW&gclid=CjwKCAjwxb7RBhA5EiwAQ-AAdO0_Be3PyuZkE6Iw7dhGFE44fDf_rIOEOTS7oOgLJuoEkq745TUjChoC52AQAvD_BwE) dataset with 40 measures across the US at 4 geographic levels
-- [Accomanying GitHub repo](https://github.com/hellodata-science/depression-in-texas) shared
+- [Accompanying GitHub repo](https://github.com/hellodata-science/depression-in-texas) shared
 - Educators can assign other locations and/or public health measures for individualized projects
 
 ## Check-in
@@ -565,7 +571,7 @@ knitr::include_graphics("img/side-closed-pixelated.png")
 
 Keep up to date via [Google Form link](https://forms.gle/HxaX3DQQKe3n2BLs8)
 
-
+catalina.medina@csuci.edu, acastro@cypresscollege.edu, mdogucu@uci.edu
 
 ## Acknowledgements
 
