@@ -3,7 +3,7 @@ title: "Teaching Introductory Data Science: Trial, Error, and Triumph for All"
 subtitle: "eCOTS 2026 Breakout Session 5B"
 title-slide-attributes:
   data-background-image: "img/logo.png"
-  data-background-size: "25%"
+  data-background-size: "20%"
   data-background-position: "5% 95%, center"
 format: 
   revealjs:
