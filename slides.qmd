@@ -184,9 +184,9 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 
 ## What about you?
 
-What is your favorite topic to teach in data science? (If not taught yet, what has been your favorite topic to learn? 
+What is your favorite topic to teach in data science? (If not taught yet, what has been your favorite topic to learn?) 
 
-Type your answer in the chat and we'll let you know when to submit.
+*Type your response in chat, but don't hit send yet. We will all hit send together!*
 
 # Tools
 
@@ -308,6 +308,12 @@ Ch 10 Reproducible Workflows for Data Science Projects
 - Utilizes [CDC PLACES](https://www.cdc.gov/places/?gad_source=1&gad_campaignid=23661736520&gbraid=0AAAABDIh0qwGL1a5eTZWNwVV1wDw8NYqW&gclid=CjwKCAjwxb7RBhA5EiwAQ-AAdO0_Be3PyuZkE6Iw7dhGFE44fDf_rIOEOTS7oOgLJuoEkq745TUjChoC52AQAvD_BwE) dataset with 40 measures across the US at 4 geographic levels
 - [Accomanying GitHub repo](https://github.com/hellodata-science/depression-in-texas) shared
 - Educators can assign other locations and/or public health measures for individualized projects
+
+## Check-in
+
+Is there anything you would like to adopt for your class? Or is there anything (materials, topics, etc) you would like to see? 
+
+*Type your response in chat, but don't hit send yet. We will all hit send together!*
 
 
 # Classroom Activity
