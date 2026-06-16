@@ -88,26 +88,15 @@ Don't hit send yet! We'll let everyone know when to send together.
 
 ## Breakout Session
 
-The flow of this session will cover:
+In this session we will cover content, tools, and examples from our IDS courses
 
-1. Content
-2. Tools
-3. Examples
+All of our materials are open access (e.g., online textbook, real data sets, and teaching activity!)
 
-The **purpose** of this session is to share:
+# Curriculum
 
-- Curriculum
-- Open access materials (e.g., online textbook, real data sets, and teaching activity!)
-- Experiences
-
-# Content
-
-## Curriculum
+What do we mean by introductory data science?
 
 We will start by sharing the topics we cover in our IDS, highlighting **similarities** and **differences**
-
-
-
 
 
 ## Dogucu's topics
@@ -164,7 +153,7 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 
 :::
 
-## Catros's topics
+## Castros's topics
 
 ::: {.panel-tabset}
 
@@ -193,30 +182,36 @@ We will start by sharing the topics we cover in our IDS, highlighting **similari
 
 :::
 
-## Summary
+## What about you?
+
+What is your favorite topic to teach in data science? (If not taught yet, what has been your favorite topic to learn? 
+
+Type your answer in the chat and we'll let you know when to submit.
+
+# Tools
 
 Even if your course differs in topics or tools, you can still benefit from individual parts of this session!
 
 The three of us differ by topics, but all three of us teach IDS using
 
-- R, especially tidyverse
+- R with tidyverse
 - data-centered explorations
-- open access materials
+- open-access materials
 
 . . .
 
 **We are developing an open-access textbook for IDS!**
 
 
-## Open access textbook for IDS
+## [Hello Data Science](https://hellodata.science/)  {style="text-align: center;"}
 
-![<https://hellodata.science/>](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters."}
+![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters." fig-align="center"}
 
-## Released chapters {background-image="img/logo.png" background-size="35px" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+## Released chapters {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="55%"}
 
 1. hello woRLD
 2. Introduction to Data
@@ -227,7 +222,7 @@ The three of us differ by topics, but all three of us teach IDS using
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="45%"}
 
 7. Dealing with Datasets: Joining, Pivoting, and Importing Datasets
 8. Tables, Functions, and Iterations
@@ -239,18 +234,81 @@ The three of us differ by topics, but all three of us teach IDS using
 ::::
 
 
-## Highlights {background-image="img/logo.png" background-size="35px" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+## Highlights {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
-- Real data sets from variety of contexts
-- cultural data science (lubridate example)
-- accessibility considerations and improvements
-- diagrams to explain ds concepts
-- example EDA project (ch 9 & 10)
-- reproducible practices with Quarto, GitHub, and style guide
+- Real data sets from a variety of contexts
+- Accessibility considerations and improvements
+- Culturally aware data science
+- Diagrams to explain DS concepts
+- Example EDA project
+- Reproducible practices with Quarto, GitHub, and style guide
 
-# Tools
+## Datasets {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
-# Examples
+[hellodatascience](https://hellodata-science.github.io/hellodatascience/) R package - CRAN hosted
+
+- American Time Use Survey for undergrad students
+- Economic measures for countries
+- Micro FIFA confederations and 2026 World Cup datasets
+- Planets
+- Produce prices
+
+[sfemergency25](https://hellodata-science.github.io/sfemergency25/) R package - GitHub hosted
+
+
+## Accessibility {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+
+Ch4: Accessible Data Representations
+
+- Color-blind friendly colors with Okabe-Ito palette and `viridis` R package
+- Data verbalization
+- Data sonification
+- Data tactualization
+
+## Diagrams {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+
+```{r}
+#| label: fig-subset-columns
+#| fig.cap: Column wise subsetting of a data frame
+#| fig-alt: "Side-by-side schematic of a data frame and a subset of it. On the left, a table labeled data_frame shows four rows (1–4) and four columns named variable_1, variable_2, variable_3, and variable_4. The columns variable_2 and variable_3 are shaded in pink to indicate selection. On the right, a smaller table labeled select(data_frame, variable_2, variable_3) displays only the two shaded columns, variable_2 and variable_3, for the same four rows, illustrating how selecting columns reduces the data frame to those variables."
+#| echo: false
+knitr::include_graphics(here::here("img/subset-columns.png"))
+```
+
+## Diagrams {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+
+```{r}
+#| label: fig-subset-rows
+#| fig.cap: Row wise subsetting of a data frame
+#| fig-alt: "Side-by-side schematic illustrating row selection in a data frame. On the left, a table labeled data_frame shows four rows (1–4) and four columns (variable_1 to variable_4). Rows 2 and 3 are shaded in pink to indicate they are selected, while rows 1 and 4 are unshaded. On the right, a smaller table labeled filter(data_frame, condition) and slice(data_frame, row_indices) displays only the selected rows (rows 2 and 3) with all four columns preserved, demonstrating how filtering or slicing keeps rows that meet a condition."
+#| echo: false
+knitr::include_graphics(here::here("img/subset-rows.png"))
+```
+
+
+## Diagrams {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+
+```{r}
+#| label: fig-left-join
+#| out-width: 50%
+#| echo: false
+#| fig-align: center
+#| fig-cap: Diagram of the resulting dataset from a left join of datasets x and y
+#| fig-alt: "Two tables labeled x and y are shown. Table x has columns key and x_val with rows (1, x1), (2, x2), and (3, x3). Table y has columns key and y_val with rows (1, y1), (2, y2), and (4, y4). A Venn diagram highlights the entire left circle representing x. The result table of a left_join(x, y) includes columns key, x_val, and y_val with three rows: (1, x1, y1), (2, x2, y2), and (3, x3, NA), showing all rows from x and matching rows from y when available."
+
+knitr::include_graphics(here::here("img/left-join.png"))
+
+```
+
+## Example EDA {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
+
+Ch 9 Exploratory Data Analysis Project  
+Ch 10 Reproducible Workflows for Data Science Projects
+
+- Utilizes [CDC PLACES](https://www.cdc.gov/places/?gad_source=1&gad_campaignid=23661736520&gbraid=0AAAABDIh0qwGL1a5eTZWNwVV1wDw8NYqW&gclid=CjwKCAjwxb7RBhA5EiwAQ-AAdO0_Be3PyuZkE6Iw7dhGFE44fDf_rIOEOTS7oOgLJuoEkq745TUjChoC52AQAvD_BwE) dataset with 40 measures across the US at 4 geographic levels
+- [Accomanying GitHub repo](https://github.com/hellodata-science/depression-in-texas) shared
+- Educators can assign other locations and/or public health measures for individualized projects
+
 
 # Classroom Activity
 
@@ -491,16 +549,18 @@ knitr::include_graphics("img/side-closed-pixelated.png")
 
 
 
-# Questions?
+# Wrap up and Q & A {background-image="img/logo.png" background-size="10%" background-position="right 20px top 10px" background-repeat="no-repeat" fig-alt="Hello Data Science logo of dots colored into three clusters."}
 
 - [Hello Data Science Textbook](https://hellodata.science/)
 
 - [hellodatascience](https://hellodata-science.github.io/hellodatascience) R Package with datasets
 
-- [](https://github.com/hellodata-science/sfemergency25) Additional large dataset not on CRAN
+- [sfemergency25](https://github.com/hellodata-science/sfemergency25) R package with sf911 dataset
 
 Keep up to date via [Google Form link](https://forms.gle/HxaX3DQQKe3n2BLs8)
 
-![](img/logo.png){fig-alt="Hello Data Science logo of dots colored into three clusters without pattern."}
 
 
+## Acknowledgements
+
+We would like to thank the National Science Foundation (NSF) for funding the collaborative project #2123366 and #2123384. All authors have collaborated in this project, and it is this project that has supported improvements to our courses and creation of one of our courses.
